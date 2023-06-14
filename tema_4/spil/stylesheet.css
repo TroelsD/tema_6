@@ -1,0 +1,316 @@
+#screen {
+  position: relative;
+  aspect-ratio: 16/9;
+  margin: 0 auto;
+}
+
+#game {
+  position: absolute;
+  aspect-ratio: 16/9;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+#game_background {
+  position: absolute;
+  aspect-ratio: 16/9;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/background_1.svg);
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#game_over {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(./img/game_over.svg);
+  background-size: cover;
+  background-position: center;
+  z-index: 300;
+}
+
+#level_complete {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("./img/you_win.svg");
+  background-size: cover;
+  background-position: center;
+  z-index: 300;
+}
+
+#game_ui {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+#energy_board {
+  position: absolute;
+  top: 10;
+  right: 0;
+  width: 28%;
+  aspect-ratio: 8/3;
+  z-index: 200;
+  text-align: right;
+  font-size: 40px;
+}
+#time_container {
+  position: absolute;
+  top: 15;
+  left: 47.5%;
+  width: 5%;
+  aspect-ratio: 1/1;
+  z-index: 200;
+}
+
+#time_board {
+  aspect-ratio: 1/1;
+  background-image: url(./img/urskive.svg);
+  background-size: cover;
+}
+
+#time_viser {
+  position: absolute;
+  width: 3%;
+  height: 45%;
+  border-radius: 50%;
+  background-color: black;
+  top: 25%;
+  left: 50%;
+}
+
+.minut_animation {
+  animation-name: min_kf;
+  animation-duration: 48s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+@keyframes min_kf {
+  to {
+    rotate: 360deg;
+  }
+}
+
+#score_board {
+  position: absolute;
+  top: 10;
+  left: 10;
+  width: 28%;
+  aspect-ratio: 8/3;
+  z-index: 200;
+  font-size: 40px;
+}
+
+/* .parent {
+
+} */
+
+.background_1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.play_button {
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 1/1;
+  top: 40%;
+  left: 40%;
+}
+.resize {
+  width: 400px;
+  height: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#red_fish_container {
+  position: absolute;
+  width: 6%;
+  aspect-ratio: 72.52 / 75.1;
+  z-index: 9;
+  right: 0;
+}
+
+#red_fish_sprite {
+  position: absolute;
+  background-image: url(./img/red_fish.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#green_fish_container {
+  position: absolute;
+  width: 4%;
+  aspect-ratio: 75.14 / 105.39;
+  z-index: 9;
+  right: 0;
+}
+
+#green_fish_sprite {
+  position: absolute;
+  background-image: url(./img/green_fish.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#shark_container {
+  position: absolute;
+  width: 22%;
+  aspect-ratio: 960 / 342.77;
+  z-index: 9;
+}
+
+#shark_sprite {
+  position: absolute;
+  background-image: url(./img/shark.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#blue_fish_container {
+  position: absolute;
+  width: 7%;
+  aspect-ratio: 101.36 / 66.25;
+  z-index: 9;
+}
+
+#blue_fish_sprite {
+  position: absolute;
+  background-image: url(./img/blue_fish.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#diver_container {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 350.6 / 559.01;
+  z-index: 10;
+  top: 15rem;
+  left: 10rem;
+}
+
+#diver_sprite {
+  position: absolute;
+  background-image: url(./img/diver.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.swim {
+  display: block;
+  position: absolute;
+  animation-name: swim_kf;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
+
+@keyframes swim_kf {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+.play_button {
+  cursor: pointer;
+}
+
+.top-2 {
+  top: 20%;
+}
+
+.top-3 {
+  top: 30%;
+}
+
+.top-4 {
+  top: 40%;
+}
+
+.top-5 {
+  top: 50%;
+}
+
+.top-6 {
+  top: 60%;
+}
+
+.top-7 {
+  top: 70%;
+}
+
+.top-8 {
+  top: 80%;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 500%;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 160%;
+}
+
+table {
+  border-collapse: collapse;
+}
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+asset-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+audio {
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 500%;
+}

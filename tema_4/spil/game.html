@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coral Quest</title>
+    <link rel="icon" type="image/x-icon" href="./img/red_fish.svg" />
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+  <header>
+    <nav>
+      <a href="./index.html">index</a>
+      <a href="./game.html">spil</a>
+      <a href="./ide.html">idé</a>
+      <a href="./teknik.html">teknik</a>
+      <a href="./grafik.html">grafik</a>
+      <a href="./assets.html">assets</a>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <div id="screen">
+        <div id="start" class="hide"></div>
+        <div id="game_over" class="hide">
+          <button class="start_game">
+            <img
+              class="play_button"
+              src="./img/play_button.svg"
+              alt="play_button"
+            />
+          </button>
+        </div>
+        <div id="level_complete" class="hide">
+          <button class="start_game">
+            <img
+              class="play_button"
+              src="./img/play_button.svg"
+              alt="play_button"
+            />
+          </button>
+        </div>
+        <div id="game">
+          <div id="game_background"></div>
+          <div id="game_ui">
+            <div id="score_board"></div>
+            <div id="energy_board"></div>
+            <div id="time_container">
+              <div id="time_board">
+                <div id="time_viser"></div>
+              </div>
+            </div>
+          </div>
+          <div id="game_elements_container">
+            <div id="red_fish_container" class="hide">
+              <div id="red_fish_sprite"></div>
+            </div>
+            <div id="blue_fish_container" class="hide">
+              <div id="blue_fish_sprite"></div>
+            </div>
+            <div id="shark_container" class="hide">
+              <div id="shark_sprite"></div>
+            </div>
+            <div id="green_fish_container" class="hide">
+              <div id="green_fish_sprite"></div>
+            </div>
+            <div id="diver_container">
+              <div id="diver_sprite"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./js/game.js"></script>
+</html>
