@@ -1,0 +1,135 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2em;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 2em;
+}
+
+body {
+  background-image: linear-gradient(blueviolet, aquamarine);
+  max-width: 100%;
+}
+
+h1 {
+  color: aquamarine;
+  font-family: Altacalifornia;
+  font-size: 6vw;
+  text-align: center;
+}
+
+h2 {
+  color: aquamarine;
+  font-size: 2vw;
+  font-family: "Template Gothic OT";
+}
+
+h3 {
+  color: aquamarine;
+  font-size: 3vw;
+  font-family: "Battery Park";
+}
+
+h4 {
+  color: blueviolet;
+  font-size: 1vw;
+  font-family: "Template Gothic OT";
+}
+p {
+  color: blueviolet;
+  font-family: "Template Gothic OT Regular";
+  /*font-size: 180%;*/
+  font-size: 1.8vw;
+}
+
+i {
+  font-size: 66%;
+  font-family: monospace;
+}
+
+li {
+  color: blueviolet;
+  font-family: "Template Gothic OT Regular";
+  font-size: 2vw;
+  list-style-type: none;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: -33%;
+  left: 20%;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 20%;
+  left: 11%;
+  text-align: left;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* top-centered text */
+.bottom-centered {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+  .grid_1-2 {
+    grid-template-columns: subgrid;
+  }
+
+  .container {
+    font-size: 55%;
+  }
+
+  p {
+    font-size: 120%;
+  }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 496 496">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #2fff2f;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="248" cy="248" fx="248" fy="248" r="248" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cce0f4"/>
+      <stop offset=".06" stop-color="#c2dcf2"/>
+      <stop offset=".17" stop-color="#a9d2ee"/>
+      <stop offset=".31" stop-color="#7fc2e7"/>
+      <stop offset=".46" stop-color="#46abdd"/>
+      <stop offset=".57" stop-color="#1e9cd7"/>
+      <stop offset=".87" stop-color="#0075be"/>
+      <stop offset=".99" stop-color="#005b97"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="248" cy="248" fx="248" fy="248" r="248" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <circle class="cls-3" cx="248" cy="248" r="248"/>
+        <path class="cls-1" d="m248,1c33.35,0,65.69,6.53,96.14,19.41,29.41,12.44,55.83,30.25,78.51,52.93,22.68,22.68,40.49,49.1,52.93,78.51,12.88,30.45,19.41,62.8,19.41,96.14s-6.53,65.69-19.41,96.14c-12.44,29.41-30.25,55.83-52.93,78.51-22.68,22.68-49.1,40.49-78.51,52.93-30.45,12.88-62.8,19.41-96.14,19.41s-65.69-6.53-96.14-19.41c-29.41-12.44-55.83-30.25-78.51-52.93-22.68-22.68-40.49-49.1-52.93-78.51C7.53,313.69,1,281.35,1,248s6.53-65.69,19.41-96.14c12.44-29.41,30.25-55.83,52.93-78.51,22.68-22.68,49.1-40.49,78.51-52.93C182.31,7.53,214.65,1,248,1m0-1C111.03,0,0,111.03,0,248s111.03,248,248,248,248-111.03,248-248S384.97,0,248,0h0Z"/>
+      </g>
+      <polygon class="cls-2" points="215.62 378.59 345.21 247.88 214.5 118.29 215.62 378.59"/>
+    </g>
+  </g>
+</svg>

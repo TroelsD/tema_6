@@ -1,0 +1,47 @@
+div {
+  padding: 10px;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url(/Font/Nunito/Nunito-Italic-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+
+body {
+  font-family: "CustomFont", sans-serif;
+  text-align: left;
+}
+
+/* .radial-gradient {
+  background-image: radial-gradient(bisque 0%, transparent 0%, salmon 40%);
+} */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1px;
+}
+
+.left-div {
+  background-color: #ffc796;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column-reverse;
+  }
+}
+
+.right-div img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+}

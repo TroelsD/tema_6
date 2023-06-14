@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url(/Font/Nunito/Nunito-Italic-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+
+body {
+  font-family: "CustomFont", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin: 100px;
+}
